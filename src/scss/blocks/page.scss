@@ -1,0 +1,10 @@
+.page {
+  background-color: #EDEDED;
+  font: 14px/24px "PT Sans", sans-serif;
+  text-transform: uppercase;
+
+  &__header {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}

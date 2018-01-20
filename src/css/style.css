@@ -1,0 +1,48 @@
+body {
+  margin: 0; }
+
+.page {
+  background-color: #EDEDED;
+  font: 14px/24px "PT Sans", sans-serif;
+  text-transform: uppercase; }
+  .page__header {
+    width: 1200px;
+    margin: 0 auto; }
+
+.main-nav {
+  position: relative; }
+  .main-nav__clearfix::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .main-nav__inner {
+    padding: 0 72px; }
+  .main-nav__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    max-width: 480px; }
+  .main-nav__list--left {
+    float: left; }
+  .main-nav__list--right {
+    float: right; }
+  .main-nav__item {
+    float: left;
+    width: 240px;
+    padding: 16px 0; }
+  .main-nav__item--left {
+    text-align: left; }
+  .main-nav__item--right {
+    text-align: right; }
+  .main-nav__logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
+  .main-nav__link {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold; }
