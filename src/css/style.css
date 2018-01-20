@@ -59,11 +59,15 @@ body {
   background-position: center center, center bottom, center top; }
 
 .slogan {
-  padding: 60px 320px;
+  padding: 55px 320px;
   text-align: center;
   background-color: white; }
   .slogan__text {
+    margin: 0;
     font-size: 21px;
     line-height: 26px;
     font-weight: bold;
     color: black; }
+  .slogan__description {
+    margin: 0;
+    margin-top: 35px; }

@@ -1,10 +1,11 @@
 .slogan {
   //background-color: #419ad1;
-  padding: 60px 320px;
+  padding: 55px 320px;
   text-align: center;
   background-color: white;
 
   &__text {
+    margin: 0;
     font-size: 21px;
     line-height: 26px;
     font-weight: bold;
@@ -12,5 +13,7 @@
   }
 
   &__description {
+    margin: 0;
+    margin-top: 35px;
   }
 }
