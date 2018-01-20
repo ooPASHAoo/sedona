@@ -16,7 +16,8 @@ body {
     display: table;
     clear: both; }
   .main-nav__inner {
-    padding: 0 72px; }
+    padding: 0 72px;
+    background-color: white; }
   .main-nav__list {
     margin: 0;
     padding: 0;
