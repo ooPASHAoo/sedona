@@ -1,0 +1,9 @@
+.intro {
+  background-color: #419ad1;
+  background-image: url("../../img/intro__text.png"),
+  url("../../img/intro__mask.png"),
+  url("../../img/intro__bg.jpg");
+  //background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center, center bottom, center top;
+}
