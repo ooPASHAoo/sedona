@@ -1,16 +1,14 @@
 .page {
   background-color: #EDEDED;
+  color: #333333;
   font: 14px/24px "PT Sans", sans-serif;
   text-transform: uppercase;
 
-  &__header {
-    width: 1200px;
-    margin: 0 auto;
-  }
+  padding-bottom: 1000px; // temp
 
-  &__intro {
-    width: 1200px;
-    min-height: 508px;
+  &__block {
+    box-sizing: border-box;
+    width: $page-width;
     margin: 0 auto;
   }
 }

@@ -1,0 +1,16 @@
+.slogan {
+  //background-color: #419ad1;
+  padding: 60px 320px;
+  text-align: center;
+  background-color: white;
+
+  &__text {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    color: black;
+  }
+
+  &__description {
+  }
+}
