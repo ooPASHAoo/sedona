@@ -1,4 +1,1 @@
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteRule ^(.*)$ src/$1 [L]
-</IfModule>
+DirectoryIndex src/index.html
