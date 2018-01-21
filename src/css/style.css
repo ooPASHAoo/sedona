@@ -21,8 +21,7 @@ body {
   background-color: #EDEDED;
   color: #333333;
   font: 14px/21px "PT Sans", sans-serif;
-  text-transform: uppercase;
-  padding-bottom: 1000px; }
+  text-transform: uppercase; }
   .page__block {
     box-sizing: border-box;
     width: 1200px;
