@@ -150,3 +150,9 @@ body {
     padding: 30px 20px;
     font-size: 21px;
     line-height: 26px; }
+
+.map {
+  min-height: 592px;
+  background-color: #dfe3ca;
+  background-image: url("../../img/map.jpg");
+  background-repeat: no-repeat; }
