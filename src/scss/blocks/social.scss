@@ -1,0 +1,27 @@
+.social {
+
+  &__btn {
+    width: 46px;
+    height: 48px;
+    background-color: $color__blue;
+    font-size: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    &:not(:last-of-type) {
+      margin-right: 6px;
+    }
+
+    &--tw {
+      background-image: url("../../img/social__btn--tw.png");
+    }
+
+    &--fb {
+      background-image: url("../../img/social__btn--fb.png");
+    }
+
+    &--yt {
+      background-image: url("../../img/social__btn--yt.png");
+    }
+  }
+}

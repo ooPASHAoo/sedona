@@ -1,0 +1,51 @@
+.main-footer {
+  margin-top: -120px;
+  min-height: 120px;
+  font-size: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+
+  &__layout {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: $page-width / 3;
+  }
+
+  &__info {
+    padding-top: 48px;
+    padding-left: 132px;
+  }
+
+  &__hashtag {
+    font-size: $font__size--header;
+    line-height: $font__lh--header;
+    font-weight: bold;
+    color: black;
+  }
+
+  &__social {
+    text-align: center;
+    padding-top: 36px;
+  }
+
+  &__copyright {
+    padding-top: 42px;
+    padding-right: 103px;
+    text-align: right;
+  }
+
+  &__copyright-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    margin-right: 8px;
+    font-size: $font__size;
+    line-height: $font__lh;
+    color: black;
+  }
+
+  &__copyright-logo {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
