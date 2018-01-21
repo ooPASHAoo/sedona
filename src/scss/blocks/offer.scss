@@ -1,0 +1,25 @@
+.offer {
+  padding: 54px 316px 0 316px;
+  background-color: white;
+  text-align: center;
+
+  &__header {
+    margin: 0;
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  &__text {
+    margin: 0;
+    margin-top: 26px;
+    line-height: 24px;
+  }
+
+  &__btn {
+    margin-top: 46px;
+    width: 100%;
+    padding: 30px 20px;
+    font-size: $font__size--header;
+    line-height: $font__lh--header;
+  }
+}
