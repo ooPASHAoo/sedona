@@ -1,19 +1,20 @@
 .slogan {
   //background-color: #419ad1;
-  padding: 55px 320px;
+  padding: 60px 320px 54px 320px;
   text-align: center;
   background-color: white;
 
   &__text {
     margin: 0;
-    font-size: 21px;
-    line-height: 26px;
+    //margin-top: 10px;
+    font-size: $font__size--header;
+    line-height: $font__lh--header;
     font-weight: bold;
     color: black;
   }
 
   &__description {
     margin: 0;
-    margin-top: 35px;
+    margin-top: 30px;
   }
 }

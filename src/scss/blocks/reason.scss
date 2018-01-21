@@ -1,0 +1,63 @@
+.reason {
+  font-size: 0;
+
+  &__text-block {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: $page-width / 3;
+    padding: 56px 48px 14px 48px;
+    text-align: center;
+    //
+    min-height: 256px;
+    background-color: #81b3d2;
+    color: white;
+
+    &--icon {
+      min-height: 330px;
+      background-color: white;
+      color: black;
+    }
+
+    &--mini {
+      padding-top: 48px;
+      background-color: #eeeeee;
+      color: black;
+    }
+  }
+
+  &__icon {
+    margin-bottom: 20px;
+  }
+
+  &__header {
+    display: block;
+    margin: 0;
+    padding: 0 62px;
+    font-size: $font__size--header;
+    line-height: $font__lh;
+  }
+
+  &__number {
+    margin: 0;
+    margin-top: 22px;
+    font-size: $font__size;
+    line-height: $font__lh;
+  }
+
+  &__description {
+    margin: 0;
+    margin-top: 22px;
+    font-size: $font__size;
+    line-height: $font__lh;
+  }
+
+  &__photo {
+    display: inline-block;
+    vertical-align: top;
+    width: $page-width / 3 * 2;
+    min-height: 256px;
+    //background-color: greenyellow;
+    //background: #c9aba8 url("../../img/reason__photo-1.jpg");
+  }
+}
