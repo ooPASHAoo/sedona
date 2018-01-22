@@ -1,14 +1,14 @@
-.page {
-  background-color: #EDEDED;
+.html {
   color: #333333;
   font: 14px/21px "PT Sans", sans-serif;
   text-transform: uppercase;
+  background-color: #EDEDED;
+}
 
-  &__shadow {
-    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
-    width: $page-width;
-    margin: 0 auto;
-  }
+.page {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+  width: $page-width;
+  margin: 0 auto;
 
   &__block {
   }

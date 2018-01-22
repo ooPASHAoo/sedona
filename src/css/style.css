@@ -17,15 +17,16 @@ body {
   color: white;
   background-color: #766357; }
 
-.page {
-  background-color: #EDEDED;
+.html {
   color: #333333;
   font: 14px/21px "PT Sans", sans-serif;
-  text-transform: uppercase; }
-  .page__shadow {
-    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
-    width: 1200px;
-    margin: 0 auto; }
+  text-transform: uppercase;
+  background-color: #EDEDED; }
+
+.page {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+  width: 1200px;
+  margin: 0 auto; }
 
 .main-nav {
   position: relative; }
