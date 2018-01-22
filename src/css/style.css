@@ -18,12 +18,12 @@ body {
   background-color: #766357; }
 
 .html {
-  color: #333333;
-  font: 14px/21px "PT Sans", sans-serif;
-  text-transform: uppercase;
   background-color: #EDEDED; }
 
 .page {
+  color: #333333;
+  font: 14px/21px "PT Sans", sans-serif;
+  text-transform: uppercase;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
   width: 1200px;
   margin: 0 auto; }
